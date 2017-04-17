@@ -1,0 +1,65 @@
+<div class ="container">
+    
+    <div class = "row">
+    
+    <div class="jumbotron">
+      <h1>Mail</h1>
+      <style>.jumbotron{
+          width :70%;
+          height:70%
+          background: green;
+          margin: 40px auto;
+          vertical-align : middle;
+          text-align:center;
+      }
+      </style>
+      
+      
+      
+      
+      <p>Send it to someone you love. </p>
+      
+      <form action="./send_lotte" method="post" enctype="multipart/form-data">
+          <div class = "row">
+              
+              <div class="col-md-6">
+                <label for="exampleInputName2">Name</label>
+                <input type="text" name="name" class="form-control" id="exampleInputName2" placeholder="Your name">
+              </div>
+              
+              <div class="col-md-6">
+            <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" name="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+              </div>
+          </div>
+          
+          <div class = "row">
+              <div class="col-md-12">
+                  
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Title</label>
+                    <input type="title" name="title" class="form-control" id="exampleInputEmail1" placeholder="Title">
+
+              </div>
+              
+          </div>
+          
+          <div class = "row">
+              <div class="col-md-12">
+                  
+                 
+                    <div class="form-group">
+                    <label for="exampleInputEmail1">Content</label>
+                    <textarea class="form-control" name = "content" rows="3"></textarea>
+                  
+              </div>
+          </div>
+             <div class="row btn_mail">
+             <button type="submit" class="btn btn-default" > Send </button>
+            </div>
+              
+            </div>
+        </form>
+    </div>
+</div>
